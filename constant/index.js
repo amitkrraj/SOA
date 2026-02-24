@@ -1,0 +1,60 @@
+const AMC_BOS_CODE = {
+  AMC00010: 'B',
+  AMC00028: 128,
+  AMC000196: 189,
+  AMC000195: 'G',
+  AMC00030: 116,
+  AMC00031: 178,
+  AMC00036: 101,
+  AMC00050: 'D',
+  AMC00051: 118,
+  AMC00063: 'FTI',
+  AMC00072: 'H',
+  AMC00075: 'O',
+  AMC00078: 'P',
+  AMC00079: null, //IDBI
+  AMC00080: null, //IDFC
+  AMC00081: null, //IIFL
+  AMC00083: null, //indiabulls
+  AMC00085: 120,
+  AMC00087: 152,
+  AMC00090: 105,
+  AMC00095: 'K',
+  AMC00099: null, //L&T
+  AMC000101: 102,
+  AMC000103: 'MM',
+  AMC000108: 117,
+  AMC000114: 127,
+  AMC000118: 130,
+  AMC000123: 'RMF',
+  AMC000124: 187,
+  AMC000131: 129,
+  AMC000134: 'PP',
+  AMC000144: 123,
+  AMC000152: 188,
+  AMC000157: 'L',
+  AMC000162: 'SH',
+  AMC000169: 176,
+  AMC000173: 'T',
+  AMC000174: 104,
+  AMC000178: 185,
+  AMC000180: 'UK',
+  AMC000183: 108,
+  AMC000193: 'Y'
+}
+
+const STATUS = {
+    SUCCESS: 0,
+    FAILED: -1
+}
+
+const MESSAGE = {
+    SUCCESS: "Request Successful",
+    FAILED: "Something went wrong.",
+}
+
+export default {
+    AMC_BOS_CODE,
+    STATUS,
+    MESSAGE
+}
